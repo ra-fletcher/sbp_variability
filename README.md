@@ -21,7 +21,7 @@ Below is an overview of the folders in this repository that are actively synchro
 `figs` contains the logo used for the README.md.
 
 
-## Credits
+## Repository Authors
 
 **Rob Fletcher, MSc (Oxon)** - Biostatistician | The George Institute for Global Health, Sydney, Australia
 
