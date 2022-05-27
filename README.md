@@ -25,9 +25,9 @@ Below is an overview of the folders in this repository that are actively synchro
 
 **Rob Fletcher, MSc (Oxon)** - Biostatistician | The George Institute for Global Health, Sydney, Australia
 
-**Patrick Rockenschaub, MSc, PhD** - Research Fellow | Charité Lab for Artificial Intelligence in Medicine, Charité Universitätsmedizin Berlin, Berlin, Germany
+**Patrick Rockenschaub, MSc PhD** - Research Fellow | Charité Lab for Artificial Intelligence in Medicine, Charité Universitätsmedizin Berlin, Berlin, Germany
 
-**Brendon Neuen, MBBS (Hons), MSc (Oxon)** - Academic Nephrology Registrar | The George Institute for Global Health, Sydney, Australia
+**Brendon Neuen, MBBS (Hons) MSc (Oxon)** - Academic Nephrology Registrar | The George Institute for Global Health, Sydney, Australia
 
 
 ## Contact
