@@ -8,7 +8,18 @@
 This repository provides a how-to guide and accompanying R code with a reprex to calculate three metrics of systolic blood pressure (SBP) variability used in analyses in *Fletcher RA et al. (2022)*.
 
 
------
+## Folder structure
+
+Below is an overview of the folders in this repository that are actively synchronised with GitHub.
+
+### code
+
+`code` contains the reprex code.
+
+### figs
+
+`figs` contains the logo used for the README.md.
+
 
 ## Credits
 
@@ -17,6 +28,7 @@ This repository provides a how-to guide and accompanying R code with a reprex to
 **Patrick Rockenschaub, MSc, PhD** - Research Fellow | Charité Lab for Artificial Intelligence in Medicine, Charité Universitätsmedizin Berlin, Berlin, Germany
 
 **Brendon Neuen, MBBS (Hons), MSc (Oxon)** - Academic Nephrology Registrar | The George Institute for Global Health, Sydney, Australia
+
 
 ## Contact
 
