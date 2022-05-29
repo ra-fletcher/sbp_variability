@@ -3,7 +3,7 @@
 # Project: Canagliflozin, visit-to-visit blood pressure variability, and risk of 
 #          cardiovascular, kidney, and mortality outcomes: pooled individual 
 #          participant data from the CANVAS and CREDENCE trials
-# Date:    26-May-2022
+# Date:    29-May-2022
 # Author:  Robert A Fletcher
 # Purpose: Reproducible example (reprex) with methods to calculate systolic 
 #          blood pressure (SBP) variability
