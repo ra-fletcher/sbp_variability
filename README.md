@@ -10,7 +10,7 @@ This repository provides a how-to guide and accompanying R reprex to calculate t
 
 ## Dependencies
 
-To get this code to work, please install all dependencies. Only three packages are required, all of which are included in the Tidyverse. These are: `dplyr`, `magrittr`, and `tidyselect`. To install the Tidyverse (if you haven't already), run the following script:
+To get this code to work, please install all dependencies. Only three packages are required, all of which are included in the Tidyverse. These packages are: `dplyr`, `magrittr`, and `tidyselect`. To install the Tidyverse (if you haven't already), run the following script:
 
 ``` r
 install.packages(setdiff("tidyverse", rownames(installed.packages())))
@@ -22,16 +22,16 @@ Below is an overview of the folders in this repository that are actively synchro
 
 ### code
 
-`code` contains the reprex code.
+`code` contains the reprex code: `sbp_variability_reprex.R`.
 
 ### figs
 
-`figs` contains the logo used for the README.md.
+`figs` contains the logo for The George Institute for Global Health used for the README.md.
 
 
 ## Guide
 
-The reprex code, `code/sbp_variability_reprex.R` starts by generating a tibble of 1000 rows (each row is one individual) which mimics the data used in our study. We have included four columns for four hypothetical repeat SBP measures at 3-months, 6-months, 12-months, and 18-months.
+The reprex code, `code/sbp_variability_reprex.R` starts by generating a tibble of 1000 rows (one row per one individual) which mimics the data used in our study. We have included four columns for four hypothetical repeat SBP measures at 3-months, 6-months, 12-months, and 18-months. You can easily extend our code to any number of repeat measures. The range of SBP values in this reprex has been (arbitrarily) specified as 90 to 180 mm Hg. 
 
 ``` r
 # Set seed ----------------------------------------------------------------
@@ -99,7 +99,7 @@ sbp_var
 #> # … with 990 more rows
 ```
 
-Calculation of VIM, a transformation of the SD which is uncorrelated with the mean (useful because higher mean SBP is correlated with higher SD of SBP variability) requires running a non-linear least squares regression of SD against the mean.
+Calculation of VIM, a transformation of the SD which is uncorrelated with the mean (useful because higher SD of SBP variability is correlated with higher mean SBP) requires running a non-linear least squares regression of SD against the mean.
 
 ``` r 
 nls_vim <- nls(sbp_sd ~ k * sbp_mean^x, data = sbp_var, start = c(k = 1, x = 1))
@@ -116,9 +116,9 @@ nls_vim
 #> Achieved convergence tolerance: 3.01e-06
 ```
 
-Note that `k` is a scaling factor, and `x` is the power (what we're aiming to derive from the regression). 
+Note that `k` is a scaling factor, and `x` is the power that we're aiming to derive from the regression. 
 
-The formula for calculation VIM is as follows:
+The formula for calculation VIM is:
 
 > VIM = (SD/BP^x) × BPpopn^x
 
@@ -159,6 +159,8 @@ sbp_var2 %>%
 #> sbp_cv   -0.15912169 0.96867138  1.0000000 0.98401798
 #> sbp_vim   0.00453244 0.99740812  0.9840180 1.00000000
 ```
+
+Note that in this reprex VIM is the least correlated with the mean (however the correlation of SD with mean is still also low).
 
 
 ## Repository Authors
