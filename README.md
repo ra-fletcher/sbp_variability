@@ -34,12 +34,7 @@ Below is an overview of the folders in this repository that are actively synchro
 The reprex code, `code/sbp_variability_reprex.R` starts by generating a tibble of 1000 rows (one row per one individual) which mimics the data used in our study. We have included four columns for four hypothetical repeat SBP measures at 3-months, 6-months, 12-months, and 18-months. You can easily extend our code to any number of repeat measures. The range of SBP values in this reprex has been (arbitrarily) specified as 90 to 180 mm Hg. 
 
 ``` r
-# Set seed ----------------------------------------------------------------
-
 set.seed(69)
-
-
-# Define reprex data ------------------------------------------------------
 
 sbp_rpt <- 
   tibble::tibble( 
@@ -174,4 +169,4 @@ Note that in this reprex VIM is the least correlated with the mean (however the 
 
 ## Contact
 
-Please feel free to contact Robert Fletcher via [email](mailto:rfletcher@georgeinstitute.org.au?subject=Inquiry) should you have any questions.
+Please feel free to contact Robert Fletcher via [email](mailto:rfletcher@georgeinstitute.org.au?subject=Inquiry) should you have any questions!
