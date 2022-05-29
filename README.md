@@ -22,11 +22,11 @@ Below is an overview of the folders in this repository that are actively synchro
 
 ### code
 
-`code` contains the reprex code: `sbp_variability_reprex.R`.
+`code` contains the reprex code: `sbp_variability_reprex.R`
 
 ### figs
 
-`figs` contains the logo for The George Institute for Global Health used for the README.md.
+`figs` contains the logo for The George Institute for Global Health used for the README
 
 
 ## Guide
