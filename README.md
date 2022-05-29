@@ -5,7 +5,7 @@
 ![Conducted By](https://img.shields.io/badge/Conducted%20By-The%20George%20Institute%20for%20Global%20Health-72297c)
 <!-- badges: end -->
 
-This repository provides a how-to guide and accompanying R code with a reprex to calculate three metrics of systolic blood pressure (SBP) variability used in analyses in *Fletcher RA et al. (2022)*. These metrics are standard deviation (SD), coefficient of variation (CV), and variability independent of the mean (VIM).
+This repository provides a how-to guide and accompanying R reprex to calculate three metrics of systolic blood pressure (SBP) variability used in analyses in *Fletcher RA et al. (2022)*. These metrics are standard deviation (SD), coefficient of variation (CV), and variability independent of the mean (VIM).
 
 
 ## Dependencies
