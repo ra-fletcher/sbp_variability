@@ -8,6 +8,14 @@
 This repository provides a how-to guide and accompanying R code with a reprex to calculate three metrics of systolic blood pressure (SBP) variability used in analyses in *Fletcher RA et al. (2022)*.
 
 
+## Dependencies
+
+To get this code to work, please install all dependencies. Only three packages are required, all of which are included in the Tidyverse. These are: `dplyr`, `magrittr`, and `tidyselect`. To install the Tidyverse, run the following script:
+
+``` r
+install.packages(setdiff("tidyverse", rownames(installed.packages())))
+```
+
 ## Folder structure
 
 Below is an overview of the folders in this repository that are actively synchronised with GitHub.
