@@ -112,7 +112,6 @@ nls_vim
 ```
 
 Note that `k` is a scaling factor, and `x` is the power that we're aiming to derive from the regression. 
-
 The formula for calculation VIM is:
 
 > VIM = (SD/BP^x) × BPpopn^x
@@ -125,6 +124,10 @@ Where:
 
 ``` r
 x <- coef(nls_vim)[2]
+
+x
+#>        x 
+#> 0.288358 
 
 sbp_var2 <- sbp_var %>%
   dplyr::mutate(sbp_vim = sbp_sd / sbp_mean^x * mean(sbp_mean)^x)
