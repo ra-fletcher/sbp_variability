@@ -162,7 +162,7 @@ Note that in this reprex VIM is the least correlated with the mean (however the 
 
 ## Repository Authors
 
-**Rob Fletcher, MSc (Oxon)** - Biostatistician | The George Institute for Global Health, Sydney, Australia
+**Robert A Fletcher, MSc (Oxon)** - Biostatistician | The George Institute for Global Health, Sydney, Australia
 
 **Patrick Rockenschaub, PhD** - Research Fellow | Charité Lab for Artificial Intelligence in Medicine, Charité Universitätsmedizin Berlin, Berlin, Germany
 
