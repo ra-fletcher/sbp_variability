@@ -5,11 +5,9 @@
 ![Conducted By](https://img.shields.io/badge/Conducted%20By-The%20George%20Institute%20for%20Global%20Health-72297c)
 <!-- badges: end -->
 
-
 ## Overview
 
 This repository provides a how-to guide and accompanying R reprex to calculate three metrics of systolic blood pressure (SBP) variability used in analyses in *Fletcher RA et al. (2022)*. These metrics are standard deviation (SD), coefficient of variation (CV), and variability independent of the mean (VIM).
-
 
 ## Dependencies
 
@@ -18,7 +16,6 @@ To get this code to work, please install all dependencies. Only three packages a
 ``` r
 install.packages(setdiff("tidyverse", rownames(installed.packages())))
 ```
-
 
 ## Folder structure
 
@@ -31,7 +28,6 @@ Below is an overview of the folders in this repository that are actively synchro
 ### figs
 
 `figs` contains the logo for The George Institute for Global Health used for the README
-
 
 ## Guide
 
@@ -164,15 +160,13 @@ sbp_var2 %>%
 
 Note that in this reprex VIM is the least correlated with the mean (however the correlation of SD with mean is still also low).
 
-
 ## Repository Authors
 
 **Rob Fletcher, MSc (Oxon)** - Biostatistician | The George Institute for Global Health, Sydney, Australia
 
-**Patrick Rockenschaub, MSc PhD** - Research Fellow | Charité Lab for Artificial Intelligence in Medicine, Charité Universitätsmedizin Berlin, Berlin, Germany
+**Patrick Rockenschaub, PhD** - Research Fellow | Charité Lab for Artificial Intelligence in Medicine, Charité Universitätsmedizin Berlin, Berlin, Germany
 
 **Brendon Neuen, MBBS (Hons) MSc (Oxon)** - Academic Nephrology Registrar | The George Institute for Global Health, Sydney, Australia
-
 
 ## Contact
 
