@@ -27,7 +27,7 @@ Below is an overview of the folders in this repository that are actively synchro
 
 ### figs
 
-`figs` contains the logo for The George Institute for Global Health used for the README
+`figs` contains the logo for The George Institute for Global Health used for the README (so safe to say you can ignore this folder)
 
 ## Guide
 
